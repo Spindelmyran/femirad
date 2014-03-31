@@ -1,6 +1,6 @@
 {
   "name": "femirad",
-  "version": "0.0.1-17",
+  "version": "0.0.1-34",
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -9,8 +9,12 @@
     "express": "3.x",
     "ejs": "*"
   },
-  "subdomain": "spindelmyran-femirad",
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "subdomain": "fluxnode",
+  "domains": [
+    "fluxnode.se",
+    "www.fluxnode.se"
+  ]
 }

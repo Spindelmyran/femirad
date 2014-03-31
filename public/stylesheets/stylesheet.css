@@ -64,15 +64,21 @@ div#restartbutton {
 }
 }
 
-@media screen and (min-width: 800px) {
+
+
+
+.panel-body{
+	padding-right:200px !important;
+	padding-left:200px !important;
+}
 div.Guess {
 	float: left;
 	margin: 3px;
 	/*padding: 2px;*/
-	height: 74px;
+	height: 100px;
 	/*height: 24%;*/
 	/*width: 74px;*/
-	width: 24%;
+	width: 23%;
 	border-color: black;
 	border-width: 1px;
 	border-style: solid;
@@ -87,7 +93,10 @@ div.Image {
 	border-width: 2px;
 	padding: 2px;
 	border-style: solid;
-	background-color:#b0c4de;
+	/*background-color:#b0c4de;*/
+	background-image: url('../dist/molnfrontloggaTile2.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 
 }
 
@@ -127,7 +136,10 @@ div#restartbutton {
     padding: 2px;
     
 }
-}	
+
+
+
+
 div.points {
 
 }
